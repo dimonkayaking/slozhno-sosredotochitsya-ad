@@ -26,7 +26,7 @@
 
 .header_elements-up {
   grid-area: header-top;
-  justify-self: end;  
+  justify-self: end;
   align-self: start;
   width: 25px;
   height: 25px;
@@ -58,7 +58,7 @@
 
 .header__theme-menu {
   grid-area: header-top;
-  justify-self: end;  
+  justify-self: end;
   align-self: center;
 }
 
@@ -115,7 +115,7 @@
 
 .header_elements-down {
   grid-area: header-bottom;
-  justify-self: start;  
+  justify-self: start;
   align-self: end;
   width: 25px;
   height: 25px;
@@ -189,7 +189,7 @@
 
 .footer_elements-up {
   grid-area: footer-top;
-  justify-self: end;  
+  justify-self: end;
   align-self: start;
   width: 25px;
   height: 25px;
@@ -200,13 +200,13 @@
 
 .footer_title {
   grid-area: footer-middle;
-  justify-self: center;  
+  justify-self: center;
   align-self: center;
 }
 
 .footer_elements-down {
   grid-area: footer-bottom;
-  justify-self: start;  
+  justify-self: start;
   align-self: end;
   width: 25px;
   height: 25px;
