@@ -304,6 +304,7 @@
     grid-area: group;
     align-self: start;
     padding: 0;
+    margin-top: 0;
   }
 
   .main_third-section .main_third-group .main_bloks-title {
