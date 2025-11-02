@@ -274,13 +274,10 @@
     grid-area: group;
     align-self: start;
     padding: 0;
-  }
-
-  .main_first-section .main_first-group .main_first-bloks-title{
     margin-top: 0;
   }
 
-  .main_first-group:first-of-type {
+  .main_first-section .main_first-group .main_first-bloks-title{
     margin-top: 0;
   }
 
@@ -376,5 +373,13 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+  }
+
+  .main_first-section {
+    grid-template-columns: 315fr 649fr;
+  }
+
+  .main_third-section {
+    grid-template-columns: 315fr 649fr;
   }
 }
