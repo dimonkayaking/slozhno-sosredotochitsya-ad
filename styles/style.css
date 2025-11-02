@@ -96,6 +96,7 @@
 .header_title-paragraph {
   grid-area: header-bottom;
   justify-self: end;
+  align-self: center;
   height: fit-content;
   top: 40%;
   background-color: var(--color_blocks);
@@ -125,7 +126,7 @@
 }
 
 .main {
-  margin-top: 40px;
+  /* Убрали margin-top отсюда - будем управлять через первую секцию */
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
@@ -135,12 +136,9 @@
   margin-top: 50px;
 }
 
-.main_section .main_first-section {
-  margin-top: 0;
-}
-
-.main_first-section-title {
-  margin: 0;
+/* ПЕРВАЯ СЕКЦИЯ - особые отступы */
+.main_first-section {
+  margin-top: 40px; /* 40px для мобильной версии */
 }
 
 .main_bloks-title {
@@ -236,8 +234,12 @@
   }
 
   .main {
-    margin-top: 60px;
     padding: 20px;
+  }
+
+  /* ДЛЯ ПЛАНШЕТА И ДЕСКТОПА - 60px */
+  .main_first-section {
+    margin-top: 60px; /* 60px для планшета и десктопа */
   }
 
   .main_section {
@@ -249,7 +251,6 @@
   }
 
   .main_first-section {
-    margin-top: 0;
     width: 100%;
     display: grid;
     grid-template-columns: 32.42% 64.83%;
