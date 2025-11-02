@@ -11,7 +11,6 @@
 
 .header {
   width: 100%;
-  max-width: 100%;
   height: 100vh;
   min-header: 668px;
   display: grid;
@@ -61,6 +60,7 @@
   grid-area: header-top;
   margin-top: 65px;
   justify-self: end;
+  width: 70px;
 }
 
 .header__theme-menu-list {
@@ -71,6 +71,7 @@
   background-color: transparent;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .header__theme-menu-button {
@@ -100,7 +101,7 @@
   grid-area: header-bottom;
   justify-self: end;
   height: fit-content;
-  margin-buttom: 60px;
+  margin-bottom: 56px;
   background-color: var(--color_blocks);
   width: 100%;
 }
@@ -225,6 +226,10 @@
     padding: 20px;
   }
 
+  .header__theme-menu {
+    margin-top: 172px;
+  }
+  
   .header_light-bulb {
     right: 29px;
     top: 20px;
@@ -232,6 +237,7 @@
 
   .header_title-paragraph {
     max-width: 50%;
+    margin-bottom: 163px;
   }
 
   .main {
