@@ -291,8 +291,14 @@
     margin-top: 0;
   }
 
-  .main_bloks {
+  .main_indent-bloks{
     margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .main_bloks {
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   .main_first-section .main_first-group .main_bloks-title:first-child {
