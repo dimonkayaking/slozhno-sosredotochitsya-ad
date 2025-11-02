@@ -102,7 +102,7 @@
   justify-self: end;
   align-self: end;
   height: fit-content;
-  margin-bottom: 56px;
+  margin-bottom: 31px;
   background-color: var(--color_blocks);
   width: 100%;
 }
@@ -238,7 +238,7 @@
 
   .header_title-paragraph {
     max-width: 50%;
-    margin-bottom: 163px;
+    margin-bottom: 138px;
   }
 
   .main {
@@ -248,10 +248,6 @@
 
   .main_section {
     margin-top: 80px;
-  }
-
-  .main_first-section .main_bloks-title:last-of-type {
-    margin-top: 20px;
   }
   
   .main_fourth-section .main_bloks-title:last-of-type {
@@ -280,7 +276,7 @@
     padding: 0;
   }
 
-  .main_first-section .main_first-group .main_bloks-title:first-of-type {
+  .main_first-group:first-of-type {
     margin-top: 0;
   }
 
@@ -358,7 +354,7 @@
 
 @media (min-width:1024px) {
   .header_title-paragraph {
-    margin-bottom: 114px;
+    margin-bottom: 89px;
   }
 
   .main_second-group {
