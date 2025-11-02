@@ -14,11 +14,10 @@
   --color_header-buttons: #FF0070;
   --color_blocks: #FF0070;
   --color_elements: #FF0070;
-  --color_button-hover: rgba(255, 0, 112, 0.4);
+  --color_button-hover: #FF007066;
   --shadow-title: 4px 4px 0 #FF0070;
   --shadow-main_link: 1.5px 1.5px 0 #FF0070;
   --shadow-ellips: 0 0 4px #FF0070;
-  --bg-img: url('../images/cover-image-dark.png');
 }
 
 .theme-dark .page {
