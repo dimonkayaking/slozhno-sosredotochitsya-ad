@@ -71,13 +71,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
 }
 
 .header__theme-menu-button {
   background-color: transparent;
   border: none;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .header__theme-menu-button:disabled {
@@ -274,6 +274,10 @@
     grid-area: group;
     align-self: start;
     padding: 0;
+  }
+
+  .main_first-section .main_first-group .main_first-bloks-title{
+    margin-top: 0;
   }
 
   .main_first-group:first-of-type {
