@@ -59,7 +59,7 @@
 
 .header__theme-menu {
   grid-area: header-top;
-  top: 65px;
+  margin-top: 65px;
   justify-self: end;
 }
 
@@ -100,7 +100,7 @@
   grid-area: header-bottom;
   justify-self: end;
   height: fit-content;
-  buttom: 60px;
+  margin-buttom: 60px;
   background-color: var(--color_blocks);
   width: 100%;
 }
@@ -269,7 +269,7 @@
     padding: 0;
   }
 
-  .main_first-section .main_first-group .main_bloks-title {
+  .main_first-section .main_first-group .main_bloks-title:first-of-type {
     margin-top: 0;
   }
 
