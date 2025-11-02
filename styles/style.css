@@ -226,7 +226,7 @@
 
   .header_light-bulb {
     right: 29px;
-    top: 20px;  
+    top: 20px;
   }
 
   .header_title-paragraph {
@@ -243,8 +243,8 @@
   }
 
   .main_fourth-second .main_bloks-title:last-of-type {
-      margin-bottom: 20px;
-    }
+    margin-bottom: 20px;
+  }
 
   .main_first-section {
     margin-top: 0;
@@ -309,7 +309,7 @@
       "third fifth fifth";
     gap: 20px;
     margin-top: 20px;
-    overflow: hidden; 
+    overflow: hidden;
     position: relative;
   }
 
@@ -346,17 +346,17 @@
 
 @media (min-width:1024px) {
   .main_second-group {
-    display: grid;  
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
 
   .header__theme-menu {
-    justify-self: center;  
+    justify-self: center;
     align-self: start;
-}
+  }
 
-.header__theme-menu-list {
+  .header__theme-menu-list {
     display: flex;
     flex-direction: row;
     gap: 10px;
