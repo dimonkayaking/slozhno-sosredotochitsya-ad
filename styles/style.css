@@ -223,6 +223,17 @@
     --font-size-header-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
+  /* ИСПРАВЛЕНИЕ: Обнуляем лишние отступы для всех заголовков */
+  .main_bloks-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .main_paragraph-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
   .header {
     padding: 20px;
   }
