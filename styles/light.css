@@ -5,16 +5,16 @@
 */
 
 :root.theme-light {
-  --bg-color:#FFF1F7;
-  --color_header-title:#FFC2E6;
-  --color_section-title:#353430;
-  --color_bloks-title:#353430;
-  --color_paragraph-title:#353430;
-  --color_paragraph:#353430;
-  --color_header-buttons:#353430;
-  --color_blocks:#FF8DCB;
-  --color_elements:#353430;
-  --color_button-hover: #32312D66;
+  --bg-color: #FFF1F7;
+  --color_header-title: #FFC2E6;
+  --color_section-title: #353430;
+  --color_bloks-title: #353430;
+  --color_paragraph-title: #353430;
+  --color_paragraph: #353430;
+  --color_header-buttons: #353430;
+  --color_blocks: #FF8DCB;
+  --color_elements: #353430;
+  --color_button-hover: rgba(50, 49, 45, 0.4);
   --font-style-normal: Regular;
   --font-style-bold: bold;
   --font-weight-bold: 700;
@@ -26,7 +26,7 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  --bg-img:url('../images/cover-image-light.png');
+  --bg-img: url('../images/cover-image-light.png');
 }
 
 .theme-light .header_light-bulb {
