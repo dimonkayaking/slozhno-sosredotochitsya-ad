@@ -160,7 +160,7 @@
   text-decoration: underline;
 }
 
-.main_link:focus{
+.main_link:focus {
   outline: none;
   border: 1px solid var(--color_paragraph);
 }
@@ -304,7 +304,7 @@
     max-width: 32.42%;
   }
 
-  .main_second-group{
+  .main_second-group {
     align-self: start;
     margin: 0;
     padding: 0;
