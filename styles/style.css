@@ -296,8 +296,12 @@
     margin-top: 0;
   }
 
-  .main_first-section .main_first-group .main_first-bloks-title{
+  .main_first-section .main_first-group .main_bloks-title:first-child{
     margin-top: 0;
+  }
+
+  .main_first-section .main_first-group .main_bloks-title:last-child{
+    margin-top: 20px;
   }
 
   .main_second-section-title {
@@ -326,7 +330,11 @@
     margin-top: 0;
   }
 
-  .main_third-section .main_third-group .main_bloks-title {
+  .main_paragraph-title{
+    margin-top: 20px;
+  }
+
+  .main_third-section .main_third-group .main_bloks-title:first-child {
     margin-top: 0;
   }
 
