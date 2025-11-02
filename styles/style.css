@@ -281,8 +281,8 @@
     margin-top: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 32.01% 65.96%;
-    gap: 2.03%;
+    grid-template-columns: 32.4% 64.85%;
+    gap: 2.75%;
     grid-template-areas: "title group";
     align-items: start;
   }
@@ -313,8 +313,8 @@
   .main_third-section {
     width: 100%;
     display: grid;
-    grid-template-columns: 32.01% 65.96%;
-    gap: 2.03%;
+    grid-template-columns: 32.4% 64.85%;
+    gap: 2.75%;
     grid-template-areas: "title group";
     align-items: start;
   }
@@ -399,6 +399,16 @@
 
   .main_first-section {
     grid-template-columns: 315fr 649fr;
+  }
+
+  .main_first-section {
+    grid-template-columns: 32.01% 65.96%;
+    gap: 2.03%;
+  }
+
+  .main_third-section {
+    grid-template-columns: 32.01% 65.96%;
+    gap: 2.03%;
   }
 
   .main_two-one-indent {
