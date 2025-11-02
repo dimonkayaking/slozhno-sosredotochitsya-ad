@@ -295,6 +295,11 @@
     max-width: 32.42%;
   }
 
+  .main_second-group{
+    align-self: start;
+    margin: 0;
+  }
+
   .main_third-section {
     width: 100%;
     display: grid;
