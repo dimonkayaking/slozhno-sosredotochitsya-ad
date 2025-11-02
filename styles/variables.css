@@ -20,6 +20,7 @@
   --font-size-paragraph:18px;
   --font-size-h2-title:18px;
   --font-size-h3-title:18px;
+  --font-size-h4-title:18px;
   --font-size-header-title:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-line-heigth-heading-title:83%;
   --font-line-heigth:23.4px;
