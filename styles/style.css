@@ -415,8 +415,4 @@
   .main_two-one-indent {
     margin: 0 0 10px;
   }
-
-  .main_third-section {
-    grid-template-columns: 315fr 649fr;
-  }
 }
