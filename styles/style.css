@@ -243,8 +243,12 @@
     margin-top: 80px;
   }
 
-  .main_fourth-second .main_bloks-title:last-of-type {
+  .main_first-second .main_bloks-title:last-of-type {
     margin-bottom: 20px;
+  }
+  
+  .main_fourth-second .main_bloks-title:last-of-type {
+    margin-top: 20px;
   }
 
   .main_first-section {
