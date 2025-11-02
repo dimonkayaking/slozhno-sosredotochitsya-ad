@@ -281,8 +281,8 @@
     margin-top: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 315fr 649fr;
-    gap: 2fr;
+    grid-template-columns: 32.01% 65.96%;
+    gap: 2.03%;
     grid-template-areas: "title group";
     align-items: start;
   }
@@ -313,8 +313,8 @@
   .main_third-section {
     width: 100%;
     display: grid;
-    grid-template-columns: 315fr 649fr;
-    gap: 2fr;
+    grid-template-columns: 32.01% 65.96%;
+    gap: 2.03%;
     grid-template-areas: "title group";
     align-items: start;
   }
