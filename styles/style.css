@@ -140,18 +140,12 @@
   margin-top: 50px;
 }
 
+.main_section-title {
+  margin-bottom: 20px;
+}
+
 .main_first-section {
   margin-top: 0;
-}
-
-.main_bloks-title {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.main_paragraph-title {
-  margin-top: 20px;
-  margin-bottom: 10px;
 }
 
 .main_link {
@@ -161,6 +155,26 @@
 
 .main_link:hover {
   text-decoration: underline;
+}
+
+.main_group-title-noindent {
+  margin: 0;
+}
+
+.main_one-indent {
+  margin: 0 0 10px;
+}
+
+.main_two-indent {
+  margin: 20px 0 10px;
+}
+
+.main_two-one-indent{
+  margin: 20px 0 10px;
+}
+
+.main_third-bloks {
+  margin: 20px 0 10px;
 }
 
 .main_gallery {
@@ -222,16 +236,6 @@
   :root {
     --font-size-header-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  
-  .main_bloks-title {
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-  
-  .main_paragraph-title {
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
 
   .header {
     padding: 20px;
@@ -263,10 +267,6 @@
   .main_group {
     margin-top: 0;
   }
-  
-  .main_fourth-section .main_bloks-title:last-of-type {
-    margin-bottom: 20px;
-  }
 
   .main_first-section {
     margin-top: 0;
@@ -289,24 +289,6 @@
     align-self: start;
     padding: 0;
     margin-top: 0;
-  }
-
-  .main_indent-bloks{
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-
-  .main_bloks {
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-
-  .main_first-section .main_first-group .main_bloks-title:first-child {
-    margin-top: 0 !important;
-  }
-
-  .main_first-section .main_first-group .main_bloks-title:last-child {
-    margin-top: 20px;
   }
 
   .main_second-section-title {
@@ -332,14 +314,6 @@
     grid-area: group;
     align-self: start;
     padding: 0;
-    margin-top: 0;
-  }
-
-  .main_paragraph-title {
-    margin-top: 20px;
-  }
-
-  .main_third-section .main_third-group .main_bloks-title:first-child {
     margin-top: 0;
   }
 
@@ -391,12 +365,6 @@
     margin-bottom: 114px;
   }
 
-  .main_second-group {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-  }
-
   .header__theme-menu {
     justify-self: center;
     margin-top: 0;
@@ -408,8 +376,18 @@
     gap: 10px;
   }
 
+  .main_second-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
   .main_first-section {
     grid-template-columns: 315fr 649fr;
+  }
+
+  .main_two-one-indent{
+    margin: 0 0 10px;
   }
 
   .main_third-section {
