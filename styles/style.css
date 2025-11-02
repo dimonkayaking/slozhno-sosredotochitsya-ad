@@ -102,7 +102,7 @@
   justify-self: end;
   align-self: end;
   height: fit-content;
-  margin-bottom: 31px;
+  margin-bottom: 56px;
   background-color: var(--color_blocks);
   width: 100%;
 }
@@ -238,7 +238,7 @@
 
   .header_title-paragraph {
     max-width: 50%;
-    margin-bottom: 138px;
+    margin-bottom: 163px;
   }
 
   .main {
@@ -358,7 +358,7 @@
 
 @media (min-width:1024px) {
   .header_title-paragraph {
-    margin-bottom: 89px;
+    margin-bottom: 114px;
   }
 
   .main_second-group {
