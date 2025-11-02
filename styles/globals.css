@@ -37,7 +37,6 @@ h2 {
   font-family: var(--font-family);
   color: var(--color_section-title);
   line-height: var(--font-line-heigth);
-  margin-bottom: 20px;
 }
 
 h3 {
