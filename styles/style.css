@@ -222,8 +222,7 @@
   :root {
     --font-size-header-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-
-  /* ИСПРАВЛЕНИЕ: Обнуляем лишние отступы для всех заголовков */
+  
   .main_bloks-title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -261,7 +260,7 @@
     margin-top: 80px;
   }
 
-  .main_group{
+  .main_group {
     margin-top: 0;
   }
   
@@ -292,15 +291,15 @@
     margin-top: 0;
   }
 
-  .main_bloks{
+  .main_bloks {
     margin-top: 0;
   }
 
-  .main_first-section .main_first-group .main_bloks-title:first-child{
-    margin-top: 0;
+  .main_first-section .main_first-group .main_bloks-title:first-child {
+    margin-top: 0 !important;
   }
 
-  .main_first-section .main_first-group .main_bloks-title:last-child{
+  .main_first-section .main_first-group .main_bloks-title:last-child {
     margin-top: 20px;
   }
 
@@ -330,7 +329,7 @@
     margin-top: 0;
   }
 
-  .main_paragraph-title{
+  .main_paragraph-title {
     margin-top: 20px;
   }
 
