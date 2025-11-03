@@ -34,7 +34,7 @@
 }
 
 @media (prefers-color-sheme: light) {
-  :root{
+  :root {
     --bg-color: #FFF1F7;
     --color_header-title: #FFC2E6;
     --color_section-title: #353430;
