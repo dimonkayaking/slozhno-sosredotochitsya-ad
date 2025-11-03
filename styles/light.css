@@ -33,7 +33,7 @@
   display: none;
 }
 
-@media (prefers-color-sheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
     --bg-color: #FFF1F7;
     --color_header-title: #FFC2E6;
