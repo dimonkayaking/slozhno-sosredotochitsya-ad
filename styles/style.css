@@ -398,10 +398,6 @@
   }
 
   .main_first-section {
-    grid-template-columns: 315fr 649fr;
-  }
-
-  .main_first-section {
     grid-template-columns: 32.01% 65.96%;
     gap: 2.03%;
   }
