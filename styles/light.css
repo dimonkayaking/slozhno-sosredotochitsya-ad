@@ -53,4 +53,8 @@
     --shadow-title: 4px 4px 0 #FF8DCB;
     --shadow-main_link: 1.5px 1.5px 0 #FF8DCB;
   }
+
+  .header_light-bulb {
+    display: none;
+  }
 }
