@@ -52,6 +52,7 @@
     --font-family: 'IBM Plex Mono', monospace;
     --shadow-title: 4px 4px 0 #FF8DCB;
     --shadow-main_link: 1.5px 1.5px 0 #FF8DCB;
+    --bg-img: url('../images/cover-image-light.png');
   }
 
   .header_light-bulb {
